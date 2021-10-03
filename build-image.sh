@@ -3,11 +3,11 @@
 set -e
 
 
-# Set this to default to a KNOWN GOOD pi firmware (e.g. 1.20200811); this is used if RASPBERRY_PI_FIRMWARE env variable is not specified
-DEFAULT_GOOD_PI_VERSION="1.20200811"
+# Set this to default to a KNOWN GOOD pi firmware (e.g. 1.20210928); this is used if RASPBERRY_PI_FIRMWARE env variable is not specified
+DEFAULT_GOOD_PI_VERSION="1.20210928"
 
-# Set this to default to a KNOWN GOOD k3os (e.g. v0.11.0); this is used if K3OS_VERSION env variable is not specified
-DEFAULT_GOOD_K3OS_VERSION="v0.11.0"
+# Set this to default to a KNOWN GOOD k3os (e.g. v0.20.11-k3s1r1); this is used if K3OS_VERSION env variable is not specified
+DEFAULT_GOOD_K3OS_VERSION="v0.20.11-k3s1r1"
 
 ## Check if we have any configs
 if [ -z "$(ls config/*.yaml)" ]; then
