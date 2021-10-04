@@ -20,5 +20,7 @@ k3os:
     - 1.us.pool.ntp.org
   k3s_args:
   - agent
+  labels:
+    k3os.io/upgrade: enabled
   token: MASTER_TOKEN
   server_url: https://MASTER_IP:6443

@@ -19,5 +19,7 @@ k3os:
     - 0.us.pool.ntp.org
     - 1.us.pool.ntp.org
   k3s_args:
-  - server
-  - "--cluster-init"
+    - server
+    - "--cluster-init"
+  labels:
+    k3os.io/upgrade: enabled
